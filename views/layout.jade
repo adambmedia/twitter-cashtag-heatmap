@@ -1,0 +1,23 @@
+doctype 5
+html
+  head
+    title= title
+    link(rel='stylesheet', href='/stylesheets/style.css')
+  body
+    block content
+      .container
+        .header
+          h1 Twitter Symbol Heatmap
+          small
+            | This tests some twitter things
+            | and tries some full stack stuff out.
+          small
+            i
+              | Last updated:
+              span(id="last-update") Never
+        ul
+          each val, key in data.symbols
+            li(data-symbol="#{key}")= key
+
+    script(src= '/socket.io/socket.io.js')
+    != js('application')
