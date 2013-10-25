@@ -1,17 +1,22 @@
 {
-  "name": "twitter-cash-heatmap",
+  "name": "application-name",
   "version": "0.0.1",
   "private": true,
   "scripts": {
     "start": "node app.js"
   },
   "dependencies": {
-    "express": "3.1.2",
+    "express": "~3.4.0",
     "jade": "*",
-    "stylus": "*",
-    "socket.io": "*",
-    "underscore": "*",
-    "cron": "*",
-    "ntwitter": "*"
+    "ntwitter": "~0.5.0",
+    "node-dev": "~2.0.2",
+    "coffee-script": "~1.6.3",
+    "socket.io": "~0.9.16",
+    "underscore": "~1.5.2",
+    "connect-assets": "~2.5.2",
+    "stylus": "~0.38.0"
+  },
+  "devDependencies": {
+    "node-dev": "~2.0.2"
   }
 }
