@@ -1,9 +1,9 @@
 Refactor of thedillonb's Node + Twitter Streaming API (in coffeescript)
 ==========================================================
 
-I was looking at Dillon's Node + Twitter Streaming API code at the same time as the Full Stack Node.js tutorial.
+I was looking at Dillon's Node + Twitter Streaming API code at the same time as Peepcode's Full Stack Node.js screencast.
 
-I refactored dillon's demo in the style, minus tests.  The result is more extensible for modular future application development.
+I refactored dillon's demo in the peepcode cast's style, minus tests and a bunch of other things to get just the most basic pattern.  The result is more extensible for modular future application development than putting everything in app.js
 
 https://github.com/thedillonb/twitter-cashtag-heatmap
 
@@ -26,7 +26,7 @@ Now, if you want to extend towards user authentication and something like, addin
 
 To Run Project
 ============================================================
-- clone
+- clone this repo
 - npm install to get dependencies
 - get your twitter credentials and enter them into apps/twitter-stream.coffee
 - run ./bin/devserver (should be executable and run as admin)
