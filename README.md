@@ -24,6 +24,13 @@ Some Different Things
 
 Now, if you want to extend towards user authentication and something like, adding and deleting the twitter watch items from a database linked to the current user, as in the Peepcode tut, things are architected more similarly.
 
+To Run Project
+============================================================
+- clone
+- npm install to get dependencies
+- get your twitter credentials and enter them into apps/twitter-stream.coffee
+- run ./bin/devserver (should be executable and run as admin)
+
 Screenshot
 =======================
 
